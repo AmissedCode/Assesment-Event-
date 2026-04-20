@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>LevelUP Hub - PC</title>
+        <link rel="icon" type="image/x-icon" href="images/logo_simple(1).png">
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    
+    <body id="pc" class="overflow-x-hidden flex flex-col min-h-screen text-white">
+        <header class="bg-[#4b4b6f] w-full h-32 flex items-center px-8 shadow-md">    
+            <a href="Index.html">
+                <img src="images/logo.png" class="h-24 w-auto">
+            </a>    
+        </header>
+        
+        <main class="flex-grow w-full pt-6 px-12 flex flex-col">  
+            <div class="mb-8 w-full flex justify-start">
+                <span class="text-3xl text-black cursor-pointer font-bold hover:text-gray-600 transition-colors" onclick="openNav()">&#9776; open</span>
+                
+                <div id="mySidenav" class="sidenav"> 
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    
+                    <div class="flex flex-col items-center justify-evenly w-full h-full pb-20 pt-8">
+                        <a href="pc.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                            <img class="w-28 object-contain" src="images/pc_logo.png" alt="PC">
+                        </a>
+                        <a href="nintendo.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                            <img class="w-28 object-contain" src="images/nintendo_logo_logo.png" alt="Nintendo">
+                        </a>
+                        <a href="xbox.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                            <img class="w-28 object-contain" src="images/xbox_one_logo_logo.png" alt="Xbox">
+                        </a>
+                        <a href="playstation.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                            <img class="w-28 object-contain" src="images/playstation_logo.png" alt="PlayStation">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w-full flex justify-center mb-16">
+                <div class="bg-[#4D4D4D] w-full max-w-5xl md:h-[400px] rounded-[55px] p-10 flex flex-col md:flex-row justify-evenly items-center gap-8 shadow-xl">
+                    
+                    <div class="flex flex-col items-center text-center w-1/3 hover:scale-105 transition-transform">
+                        <img src="images/jwe-2.png" class="w-40 h-56 object-cover rounded-md mb-4 drop-shadow-lg border-2 border-white/10" alt="Jurassic World Evolution 2">
+                        <div class="w-full h-16 flex items-start justify-center">
+                            <p class="text-xl leading-snug font-semibold text-white">Jurassic World Evolution 2</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-col items-center text-center w-1/3 hover:scale-105 transition-transform">
+                        <img src="images/ugg.png" class="w-40 h-56 object-cover rounded-md mb-4 drop-shadow-lg border-2 border-white/10" alt="Untitled Goose Game">
+                        <div class="w-full h-16 flex items-start justify-center">
+                            <p class="text-xl leading-snug font-semibold text-white">Untitled Goose Game</p>    
+                        </div>
+                    </div>
+                
+                    <div class="flex flex-col items-center text-center w-1/3 hover:scale-105 transition-transform">
+                        <img src="images/mc.png" class="w-40 h-56 object-cover rounded-md mb-4 drop-shadow-lg border-2 border-white/10" alt="Minecraft">
+                        <div class="w-full h-16 flex items-start justify-center">
+                            <p class="text-xl leading-snug font-semibold text-white">Minecraft</p>
+                        </div>
+                    </div>
+
+                </div>     
+            </div>
+        </main>
+
+        <footer class="w-full bg-[#b4b4b4] flex justify-between items-center px-12 py-8 mt-16 text-white">      
+            <div class="w-1/2">
+                <a href="references.html" class="hover:text-gray-700 transition-colors">
+                    <p class="text-lg underline">All credits to their respectively authors. Click here</p>
+                </a>
+            </div>
+            <div class="text-right">
+                <h2 class="text-xl font-bold uppercase tracking-widest mb-4">Get social</h2>
+                <div class="flex space-x-6 justify-end">
+                    <a href="https://www.instagram.com/lv.uphub" class="hover:scale-125 transition-transform">
+                        <img src="images/ins.png" class="w-10 h-10">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCa5y20KSaEzkTBFcbnfrYRg" class="hover:scale-125 transition-transform">
+                        <img src="images/you.png" class="w-10 h-10">
+                    </a>
+                    <a href="https://www.tiktok.com/@level_uphub" class="hover:scale-125 transition-transform">
+                        <img src="images/tok.png" class="w-10 h-10">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+/* =========================================
+   1. CUSTOM FONTS
+   ========================================= */
+@font-face {
+  font-family: "autotechno";
+  /* Make sure it points to nasa.otf and specifies 'opentype' */
+  src: url("fonts/nasa.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "cubic";
+  /* FIXED: Changed from .woff2 to .ttf and specified 'truetype' */
+  src: url("fonts/cubic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "pokemon";
+  /* Added the 'truetype' format tag to ensure browsers read it correctly */
+  src: url("fonts/pokemonclassic.ttf") format("truetype");
+}
+
+/* Apply fonts globally */
+h1 { font-family: "cubic"; color: red; }
+h2 { font-family: "autotechno"; }
+p, a, span, li { font-family: "pokemon"; }
+
+
+/* =========================================
+   2. PAGE BACKGROUND GRADIENTS
+   ========================================= */
+#indx { background: linear-gradient(to bottom, #ceced9 0%, #011c40 100%); }
+#nin  { background: linear-gradient(to top left, #000000 0%, #6e1818 22%, #f40000 43%, #e45757 77%, #ffc8c8 100%); }
+#pc   { background: linear-gradient(to top right, #000000 12%, #8a8b82 50%, #4f504e 72%, #ffffff 100%); }
+#plst { background: linear-gradient(to top left, #000000 6%, #29285e 28%, #5551db 60%, #b1afff 112%); }
+#xbx  { background: linear-gradient(to top right, #132c17 9%, #4d6528 28%, #a1ae1c 59%, #9ced80 112%); }
+#ref  { background: linear-gradient(to top right, #000000 6%, #4f504e 24%, #8a8b82 43%, #ffffff 100%); }
+
+
+/* =========================================
+   3. SIDE NAVIGATION MENU
+   ========================================= */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #fe3d2d;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: 90%;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: white;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}

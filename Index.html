@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>LevelUP Hub</title>
+        <link rel="icon" type="image/x-icon" href="images/logo_simple(1).png">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <meta name="description" content="">
+        <meta name="content" content="">
+        <meta name="keywords" content="games, xbox, playstation, nintendo, pc, review, videogames, opinion, fun, game review, best game for">
+        <meta name="author" content="ello garza">
+    </head>
+    
+    <body id="indx" class="overflow-x-hidden flex flex-col min-h-screen">
+        <header class="bg-[#4b4b6f] w-full h-32 flex items-center px-8 shadow-md">    
+            <a href="Index.html">
+                <img src="images/logo.png" class="h-24 w-auto">
+            </a>    
+        </header>
+        
+        <main class="flex-grow w-full pt-6 px-12">
+            
+            <div class="mb-12">
+                <span class="text-3xl cursor-pointer font-bold hover:text-gray-500 transition-colors" onclick="openNav()">&#9776; open</span>
+                <div id="mySidenav" class="sidenav"> 
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    
+                    <div class="flex flex-col items-center justify-evenly w-full h-full pb-20 pt-8">
+                        <a href="pc.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                            <img class="w-28 object-contain" src="images/pc_logo.png" alt="PC">
+                        </a>
+                        <a href="nintendo.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                            <img class="w-28 object-contain" src="images/nintendo_logo_logo.png" alt="Nintendo">
+                        </a>
+                        <a href="xbox.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                            <img class="w-28 object-contain" src="images/xbox_one_logo_logo.png" alt="Xbox">
+                        </a>
+                        <a href="playstation.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                            <img class="w-28 object-contain" src="images/playstation_logo.png" alt="PlayStation">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto mb-16">
+                <h1 class="text-red-500 text-6xl tracking-[0.2em] mb-6 uppercase text-center">About Us</h1>
+                
+                <p class="text-xl leading-relaxed text-justify px-8">
+                    We are a team of high school students who enjoy playing video games, and we wish to share our opinion about three different games each month, on our social media and on our webpage, with everyone interested.
+                </p>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-20 mb-20 w-full px-4">
+                <a href="xbox.html" class="bg-[#b4b4b4] w-40 h-40 rounded-3xl flex items-center justify-center p-5 hover:scale-110 transition-transform shadow-lg">
+                    <img src="images/xbox_one_logo_logo.png" class="w-full h-full object-contain">
+                </a>
+                <a href="playstation.html" class="bg-[#b4b4b4] w-40 h-40 rounded-3xl flex items-center justify-center p-5 hover:scale-110 transition-transform shadow-lg">
+                    <img src="images/playstation_logo.png" class="w-full h-full object-contain">
+                </a>
+                <a href="nintendo.html" class="bg-[#b4b4b4] w-40 h-40 rounded-3xl flex items-center justify-center p-5 hover:scale-110 transition-transform shadow-lg">
+                    <img src="images/nintendo_logo_logo.png" class="w-full h-full object-contain">
+                </a>
+                <a href="pc.html" class="bg-[#b4b4b4] w-40 h-40 rounded-3xl flex items-center justify-center p-5 hover:scale-110 transition-transform shadow-lg">
+                    <img src="images/pc_logo.png" class="w-full h-full object-contain">
+                </a>
+            </div>
+            
+        </main>
+        
+        <footer class="w-full bg-[#b4b4b4] flex justify-between items-center px-12 py-8 text-white mt-16">      
+            <div class="w-1/2">
+                <a href="references.html" class="hover:text-gray-700 transition-colors">
+                    <p class="text-lg underline">All credits to their respectively authors. Click here</p>
+                </a>
+            </div>
+            <div class="text-right">
+                <h2 class="text-xl font-bold uppercase tracking-widest mb-4">Get social</h2>
+                <div class="flex space-x-6 justify-end">
+                    <a href="https://www.instagram.com/lv.uphub" class="hover:scale-125 transition-transform">
+                        <img src="images/ins.png" class="w-10 h-10">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCa5y20KSaEzkTBFcbnfrYRg" class="hover:scale-125 transition-transform">
+                        <img src="images/you.png" class="w-10 h-10">
+                    </a>
+                    <a href="https://www.tiktok.com/@level_uphub" class="hover:scale-125 transition-transform">
+                        <img src="images/tok.png" class="w-10 h-10">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
