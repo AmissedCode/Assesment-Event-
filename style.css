@@ -2,7 +2,7 @@
    1. CUSTOM FONTS
    ========================================= */
 @font-face {
-  font-family: "autotechno";
+  font-family: "nasa";
   /* Make sure it points to nasa.otf and specifies 'opentype' */
   src: url("fonts/nasa.otf") format("opentype");
 }
@@ -21,8 +21,8 @@
 
 /* Apply fonts globally */
 h1 { font-family: "cubic"; color: red; }
-h2 { font-family: "autotechno"; }
-p, a, span, li { font-family: "pokemon"; }
+h2, span { font-family: "nasa"; }
+p, a, li { font-family: "pokemon"; }
 
 
 /* =========================================
