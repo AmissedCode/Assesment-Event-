@@ -7,7 +7,7 @@ const gamesDB = [
     { id: "modal-halo", page: "xbox.html", title: "HALO: The Masterchief Collection", tags: ["FPS", "Multiplayer", "Sci-fi", "Action", "Classic", "Co-op"] },
     { id: "modal-minecraft", page: "pc.html", title: "Minecraft", tags: ["Sandbox", "Survival", "Open World", "Multiplayer", "Crafting", "Building"] },
     { id: "modal-zomboid", page: "pc.html", title: "Project Zomboid", tags: ["Survival", "Zombies", "Sandbox", "RPG", "Multiplayer", "Simulation"] },
-    { id: "modal-dr", page: "pc.html", title: "Deltarune", tags: ["RPG", "Story Rich", "Indie", "Fantasy", "Comedy", "Singleplayer"] },
+    { id: "modal-dr", page: "nintendo.html", title: "Deltarune", tags: ["RPG", "Story Rich", "Indie", "Fantasy", "Comedy", "Singleplayer"] },
     { id: "modal-jwe2", page: "xbox.html", title: "Jurassic World Evolution 2", tags: ["Simulation", "Strategy", "Management", "Dinosaurs", "Building", "Singleplayer"] },
     { id: "modal-stew", page: "xbox.html", title: "Stardew Valley", tags: ["Farming Sim", "RPG", "Simulation", "Multiplayer", "Relaxing", "Pixel Art"] },
     // ADD NEW GAMES HERE AS YOU BUILD THEM!

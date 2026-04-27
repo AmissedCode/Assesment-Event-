@@ -1,105 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <title>LevelUP Hub - Nintendo</title>
-        <link rel="icon" type="image/x-icon" href="images/logo_simple(1).png">
-        
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-        <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    
-    <body id="nin" class="overflow-x-hidden flex flex-col min-h-screen text-white">
-        <header class="bg-[#4b4b6f] w-full h-32 flex items-center px-8 shadow-md">    
-            <a href="Index.html">
-                <img src="images/logo.png" class="h-24 w-auto">
-            </a>    
-        </header>
-        
-        <main class="flex-grow w-full pt-6 px-12 flex flex-col">
-            <div class="mb-8 w-full flex justify-start">
-                <span class="text-3xl text-black cursor-pointer font-bold hover:text-gray-600 transition-colors" onclick="openNav()">&#9776; open</span>
-                <div id="mySidenav" class="sidenav"> 
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    
-                    <div class="flex flex-col items-center justify-evenly w-full h-full pb-20 pt-8">
-                        <a href="pc.html" class="!p-0 hover:scale-110 transition-transform duration-300">
-                            <img class="w-28 object-contain" src="images/pc_logo.png" alt="PC">
-                        </a>
-                        <a href="nintendo.html" class="!p-0 hover:scale-110 transition-transform duration-300">
-                            <img class="w-28 object-contain" src="images/nintendo_logo_logo.png" alt="Nintendo">
-                        </a>
-                        <a href="xbox.html" class="!p-0 hover:scale-110 transition-transform duration-300">
-                            <img class="w-28 object-contain" src="images/xbox_one_logo_logo.png" alt="Xbox">
-                        </a>
-                        <a href="playstation.html" class="!p-0 hover:scale-110 transition-transform duration-300">
-                            <img class="w-28 object-contain" src="images/playstation_logo.png" alt="PlayStation">
-                        </a>
-                    </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>LevelUP Hub - Nintendo</title>
+    <link rel="icon" type="image/x-icon" href="images/logo_simple(1).png">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body id="nin" class="overflow-x-hidden flex flex-col min-h-screen text-white">
+    <header class="bg-[#4b4b6f] w-full h-32 flex items-center px-8 shadow-md">
+        <a href="Index.html">
+            <img src="images/logo.png" class="h-24 w-auto">
+        </a>
+    </header>
+
+    <main class="flex-grow w-full pt-6 px-12 flex flex-col">
+        <div class="mb-8 w-full flex justify-start">
+            <span class="text-3xl text-black cursor-pointer font-bold hover:text-gray-600 transition-colors"
+                onclick="openNav()">&#9776; open</span>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <div class="flex flex-col items-center justify-evenly w-full h-full pb-20 pt-8">
+                    <a href="pc.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                        <img class="w-28 object-contain" src="images/pc_logo.png" alt="PC">
+                    </a>
+                    <a href="nintendo.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                        <img class="w-28 object-contain" src="images/nintendo_logo_logo.png" alt="Nintendo">
+                    </a>
+                    <a href="xbox.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                        <img class="w-28 object-contain" src="images/xbox_one_logo_logo.png" alt="Xbox">
+                    </a>
+                    <a href="playstation.html" class="!p-0 hover:scale-110 transition-transform duration-300">
+                        <img class="w-28 object-contain" src="images/playstation_logo.png" alt="PlayStation">
+                    </a>
                 </div>
             </div>
-            
-            <div class="w-full flex justify-center mb-16">
-                <div class="bg-[#4D4D4D] w-full max-w-5xl md:h-[400px] rounded-[55px] p-10 flex flex-col md:flex-row justify-evenly items-center gap-8 shadow-xl">
-                    
-                    <div class="flex flex-col items-center text-center w-1/3 hover:scale-105 transition-transform">
-                        <img src="images/dr.png" class="w-40 h-56 object-cover rounded-md mb-4 drop-shadow-lg border-2 border-white/10" alt="Super Mario Bros. Wonder">
-                        <div class="w-full h-16 flex items-start justify-center">
-                            <p class="text-xl leading-snug font-semibold text-white">Deltarune</p>
-                        </div>
-                    </div>
-                    
-                    <div class="flex flex-col items-center text-center w-1/3 hover:scale-105 transition-transform">
-                        <img src="images/pkm-s.png" class="w-40 h-56 object-cover rounded-md mb-4 drop-shadow-lg border-2 border-white/10" alt="Pokemon Violet">
-                        <div class="w-full h-16 flex items-start justify-center">
-                            <p class="text-xl leading-snug font-semibold text-white">Pokemon Violet</p>    
-                        </div>
-                    </div>
-                
-                    <div class="flex flex-col items-center text-center w-1/3 hover:scale-105 transition-transform">
-                        <img src="images/od.png" class="w-40 h-56 object-cover rounded-md mb-4 drop-shadow-lg border-2 border-white/10" alt="Super Mario Odyssey">
-                        <div class="w-full h-16 flex items-start justify-center">
-                            <p class="text-xl leading-snug font-semibold text-white">Super Mario Odyssey</p>
-                        </div>
-                    </div>
+        </div>
 
-                </div>     
-            </div>  
-        </main>
+        <div class="w-full flex justify-center mb-16">
+            <div
+                class="bg-[#4D4D4D] w-full max-w-5xl md:h-[400px] rounded-[55px] p-10 flex flex-col md:flex-row justify-evenly items-center gap-8 shadow-xl">
 
-        <footer class="w-full bg-[#b4b4b4] flex justify-between items-center px-12 py-8 mt-16 text-white">      
-            <div class="w-1/2">
-                <a href="references.html" class="hover:text-gray-700 transition-colors">
-                    <p class="text-lg underline">All credits to their respectively authors. Click here</p>
+                <div class="flex flex-col items-center text-center w-1/3 hover:scale-105 transition-transform">
+                    <img src="images/dr.png"
+                        class="w-40 h-56 object-cover rounded-md mb-4 drop-shadow-lg border-2 border-white/10"
+                        alt="Super Mario Bros. Wonder">
+                    <div class="w-full h-16 flex items-start justify-center">
+                        <p class="text-xl leading-snug font-semibold text-white">Deltarune</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center text-center w-1/3 hover:scale-105 transition-transform">
+                    <img src="images/pkm-s.png"
+                        class="w-40 h-56 object-cover rounded-md mb-4 drop-shadow-lg border-2 border-white/10"
+                        alt="Pokemon Violet">
+                    <div class="w-full h-16 flex items-start justify-center">
+                        <p class="text-xl leading-snug font-semibold text-white">Pokemon Violet</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center text-center w-1/3 hover:scale-105 transition-transform">
+                    <img src="images/od.png"
+                        class="w-40 h-56 object-cover rounded-md mb-4 drop-shadow-lg border-2 border-white/10"
+                        alt="Super Mario Odyssey">
+                    <div class="w-full h-16 flex items-start justify-center">
+                        <p class="text-xl leading-snug font-semibold text-white">Super Mario Odyssey</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="w-full bg-[#b4b4b4] flex justify-between items-center px-12 py-8 mt-16 text-white">
+        <div class="w-1/2">
+            <a href="references.html" class="hover:text-gray-700 transition-colors">
+                <p class="text-lg underline">All credits to their respectively authors. Click here</p>
+            </a>
+        </div>
+        <div class="text-right">
+            <h2 class="text-xl font-bold uppercase tracking-widest mb-4">Get social</h2>
+            <div class="flex space-x-6 justify-end">
+                <a href="https://www.instagram.com/lv.uphub" class="hover:scale-125 transition-transform">
+                    <img src="images/ins.png" class="w-10 h-10">
+                </a>
+                <a href="https://www.youtube.com/channel/UCa5y20KSaEzkTBFcbnfrYRg"
+                    class="hover:scale-125 transition-transform">
+                    <img src="images/you.png" class="w-10 h-10">
+                </a>
+                <a href="https://www.tiktok.com/@level_uphub" class="hover:scale-125 transition-transform">
+                    <img src="images/tok.png" class="w-10 h-10">
                 </a>
             </div>
-            <div class="text-right">
-                <h2 class="text-xl font-bold uppercase tracking-widest mb-4">Get social</h2>
-                <div class="flex space-x-6 justify-end">
-                    <a href="https://www.instagram.com/lv.uphub" class="hover:scale-125 transition-transform">
-                        <img src="images/ins.png" class="w-10 h-10">
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCa5y20KSaEzkTBFcbnfrYRg" class="hover:scale-125 transition-transform">
-                        <img src="images/you.png" class="w-10 h-10">
-                    </a>
-                    <a href="https://www.tiktok.com/@level_uphub" class="hover:scale-125 transition-transform">
-                        <img src="images/tok.png" class="w-10 h-10">
-                    </a>
+        </div>
+    </footer>
+       <div id="modal-dr" class="fixed inset-0 bg-black/80 z-40 flex justify-center items-center hidden">
+            
+            <div class="bg-[#333333] w-[95%] max-w-6xl rounded-[40px] flex flex-col md:flex-row p-12 gap-12 relative shadow-2xl max-h-[95vh] overflow-y-auto overflow-x-hidden scrollbar-hide">
+                <button onclick="closeModal('modal-dr')" class="absolute top-8 right-10 text-white/50 hover:text-white text-5xl font-bold transition-colors duration-200 hover:scale-110 z-10">&times;</button>
+                <div class="w-full md:w-1/4 flex flex-col items-center gap-6 border-r border-white/10 pr-6">
+                    <img src="images/dr.png" alt="ARK: Survival Evolved" onclick="openTrailer('modal-dr', 'videos/Ark_Trailer.mp4')" class="w-full max-w-[200px] aspect-[2/3] object-cover rounded-2xl shadow-lg border-2 border-white/10 hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    <div class="w-full max-w-[200px]">
+                        <span class="text-gray-400 block mb-3 text-xs uppercase tracking-wider text-center">Similar Games</span>
+                        <div class="grid grid-cols-2 gap-3">
+                            <a href="nintendo.html" class="flex flex-col items-center group relative cursor-pointer">
+                                <img src="images/dr.png" class="w-full aspect-[2/3] object-cover rounded-lg group-hover:scale-105 transition-transform duration-300 border border-white/10 group-hover:border-white/40 shadow-md">
+                                <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-3 py-1.5 bg-gray-900 text-[11px] font-bold text-gray-100 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center whitespace-nowrap">
+                                    Deltarune
+                                    <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                                </div>
+                            </a>
+                            <a href="pc.html?game=modal-zomboid" class="flex flex-col items-center group relative cursor-pointer">
+                                <img src="images/zomboid.png" class="w-full aspect-[2/3] object-cover rounded-lg group-hover:scale-105 transition-transform duration-300 border border-white/10 group-hover:border-white/40 shadow-md">
+                                <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-3 py-1.5 bg-gray-900 text-[11px] font-bold text-gray-100 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center whitespace-nowrap">
+                                    Project Zomboid
+                                    <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                                </div>
+                            </a>
+                            <a href="xbox.html?game=modal-jwe2" class="flex flex-col items-center group relative cursor-pointer">
+                                <img src="images/jwe-2.png" class="w-full aspect-[2/3] object-cover rounded-lg group-hover:scale-105 transition-transform duration-300 border border-white/10 group-hover:border-white/40 shadow-md">
+                                <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-28 px-3 py-1.5 bg-gray-900 text-[11px] font-bold text-gray-100 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center leading-tight">
+                                    Jurassic World<br>Evolution 2
+                                    <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                                </div>
+                            </a>
+                            <a href="xbox.html?game=modal-stew" class="flex flex-col items-center group relative cursor-pointer">
+                                <img src="images/stew.png" class="w-full aspect-[2/3] object-cover rounded-lg group-hover:scale-105 transition-transform duration-300 border border-white/10 group-hover:border-white/40 shadow-md">
+                                <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-3 py-1.5 bg-gray-900 text-[11px] font-bold text-gray-100 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center whitespace-nowrap">
+                                    Stardew Valley
+                                    <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-3/4 flex flex-col justify-between text-white py-2 pl-4">
+                    
+                    <h2 class="text-5xl md:text-6xl font-bold mb-12 font-['cubic'] text-white drop-shadow-md pr-16 leading-tight">Deltarune</h2>
+
+                    <div class="flex flex-wrap items-center gap-16 mb-16">
+                        <div class="flex items-center gap-4 relative group cursor-help">
+                            <span class="text-2xl font-semibold">Recommendation:</span>
+                            <div class="flex text-yellow-400 text-4xl drop-shadow-md hover:scale-110 transition-transform duration-300">★★★★★</div>
+                            
+                            <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-14 w-100 p-5 bg-gray-900 text-base text-gray-200 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center leading-relaxed">
+                                <p> ARK: Survival Evolved is one of those games that can be both amazing and frustrating simultaneously. It throws you onto a mysterious island packed with dinosaurs, where the main goal is simple: survive. Scrambling to build a shelter before something bigger and hungrier finds you. The real hook, though, is the dinosaurs. Almost every creature you see can be tamed, from speedy raptors to towering T. rexes,  while ARK’s world is gorgeous with lush jungles, snowy peaks, and deep oceans. But it’s also unforgiving. Hunger, thirst, weather, and aggressive players or creatures will constantly keep you on edge. </p>
+                                <div class="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-gray-900"></div>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-20">
+                            <span class="text-2xl font-semibold">Classification:</span>
+                            
+                            <div class="group bg-white flex items-center rounded-lg border-[3px] border-black shadow-lg transition-all duration-500 ease-in-out w-14 hover:w-[130px] h-20 overflow-hidden cursor-help pl-3">
+                                <p class="font-extrabold text-black text-4xl w-8 flex-shrink-0 text-center">T</p>
+                                <div class="flex flex-col justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 ml-2 whitespace-nowrap">
+                                    <span class="font-sans text-[16px] font-black text-black tracking-wider leading-tight">TEEN</span>
+                                    <span class="font-sans text-[16px] font-black text-black tracking-wider leading-tight">13+</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-5 gap-10 mt-auto w-full">
+                        
+                        <div class="flex flex-col items-center md:col-span-2">
+                            <span class="text-gray-400 block mb-6 text-lg uppercase tracking-wider text-center w-full">Available on</span>
+                            <div class="grid grid-cols-2 gap-x-10 gap-y-6 w-fit">
+                                <a href="xbox.html" class="hover:scale-125 hover:-translate-y-2 transition-all duration-300 drop-shadow-lg flex justify-center">
+                                    <img src="images/xbox_one_logo_logo.png" alt="Xbox" class="w-20 h-20 object-contain">
+                                </a>
+                                <a href="playstation.html" class="hover:scale-125 hover:-translate-y-2 transition-all duration-300 drop-shadow-lg flex justify-center">
+                                    <img src="images/playstation_logo.png" alt="PlayStation" class="w-20 h-20 object-contain">
+                                </a>
+                                <a href="pc.html" class="hover:scale-125 hover:-translate-y-2 transition-all duration-300 drop-shadow-lg flex justify-center">
+                                    <img src="images/pc_logo.png" alt="PC" class="w-20 h-20 object-contain">
+                                </a>
+                                <a href="nintendo.html" class="hover:scale-125 hover:-translate-y-2 transition-all duration-300 drop-shadow-lg flex justify-center">
+                                    <img src="images/nintendo_logo_logo.png" alt="Nintendo Switch" class="w-20 h-20 object-contain">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center md:col-span-3">
+                            <div class="grid grid-cols-2 gap-5 w-full max-w-sm">
+                                <span class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">Survival</span>
+                                <span class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">Open World</span>
+                                <span class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">Sandbox</span>
+                                <span class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">Multiplayer</span>
+                                <span class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">RPG</span>
+                                <span class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">Fantasy</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </div>
 
-                <div id="modal-dr" class="fixed inset-0 bg-black/80 z-40 flex justify-center items-center hidden">
+        <div id="modal-rdr2" class="fixed inset-0 bg-black/80 z-40 flex justify-center items-center hidden">
             
             <div class="bg-[#333333] w-[95%] max-w-6xl rounded-[40px] flex flex-col md:flex-row p-12 gap-12 relative shadow-2xl max-h-[95vh] overflow-y-auto overflow-x-hidden scrollbar-hide">
 
-                <button onclick="closeModal('modal-dr')" class="absolute top-8 right-10 text-white/50 hover:text-white text-5xl font-bold transition-colors duration-200 hover:scale-110 z-10">&times;</button>
+                <button onclick="closeModal('modal-rdr2')" class="absolute top-8 right-10 text-white/50 hover:text-white text-5xl font-bold transition-colors duration-200 hover:scale-110 z-10">&times;</button>
 
                 <div class="w-full md:w-1/4 flex flex-col items-center gap-6 border-r border-white/10 pr-6">
                     
-                    <img src="images/dr.png" alt="Deltarune" onclick="openTrailer('modal-dr', 'videos/RDII_Trailer.mp4')" class="w-full max-w-[200px] aspect-[2/3] object-cover rounded-2xl shadow-lg border-2 border-white/10 hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    <img src="images/rdr2.jpg" alt="Red Dead Redemption II" onclick="openTrailer('modal-rdr2', 'videos/RDII_Trailer.mp4')" class="w-full max-w-[200px] aspect-[2/3] object-cover rounded-2xl shadow-lg border-2 border-white/10 hover:scale-105 transition-transform duration-300 cursor-pointer">
                     
                     <div class="w-full max-w-[200px]">
                         <span class="text-gray-400 block mb-3 text-xs uppercase tracking-wider text-center">Similar Games</span>
@@ -107,7 +217,7 @@
                             <a href="playstation.html?game=modal-gow" class="flex flex-col items-center group relative cursor-pointer">
                                 <img src="images/gow-rag.png" class="w-full aspect-[2/3] object-cover rounded-lg group-hover:scale-105 transition-transform duration-300 border border-white/10 group-hover:border-white/40 shadow-md">
                                 <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-3 py-1.5 bg-gray-900 text-[11px] font-bold text-gray-100 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center whitespace-nowrap">
-                                    God of War RagnarokS
+                                    God of War Ragnarok
                                     <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
                                 </div>
                             </a>
@@ -138,7 +248,7 @@
 
                 <div class="w-full md:w-3/4 flex flex-col justify-between text-white py-2 pl-4">
                     
-                    <h2 class="text-5xl md:text-6xl font-bold mb-12 font-['cubic'] text-white drop-shadow-md pr-16 leading-tight">Deltarune</h2>
+                    <h2 class="text-5xl md:text-6xl font-bold mb-12 font-['cubic'] text-white drop-shadow-md pr-16 leading-tight">RED DEAD REDEMPTION II</h2>
 
                     <div class="flex flex-wrap items-center gap-16 mb-16">
                         <div class="flex items-center gap-4 relative group cursor-help">
@@ -154,7 +264,7 @@
                             <span class="text-2xl font-semibold">Classification:</span>
                             
                             <div class="group bg-white flex items-center rounded-lg border-[3px] border-black shadow-lg transition-all duration-500 ease-in-out w-14 hover:w-[155px] h-20 overflow-hidden cursor-help pl-3">
-                                <span class="font-extrabold text-black text-4xl w-8 flex-shrink-0 text-center">M</span>
+                                <p class="font-extrabold text-black text-4xl w-8 flex-shrink-0 text-center">M</p>
                                 <div class="flex flex-col justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 ml-2 whitespace-nowrap">
                                     <span class="font-sans text-[16px] font-black text-black tracking-wider leading-tight">MATURE</span>
                                     <span class="font-sans text-[16px] font-black text-black tracking-wider leading-tight">17+</span>
@@ -196,62 +306,168 @@
                 </div>
             </div>
         </div>
-        <script>
-            function openModal(id) {
-                document.getElementById(id).classList.remove('hidden');
-            }
-        
-            function closeModal(id) {
-                document.getElementById(id).classList.add('hidden');
-            }
-        
-            function openTrailer(infoModalId, videoFile) {
-                // Hide the info modal instantly
-                document.getElementById(infoModalId).classList.add('hidden');
-        
-                // Show the trailer modal instantly
-                document.getElementById('trailer-modal').classList.remove('hidden');
-                
-                // Target the video tag and set the source
-                const video = document.getElementById('trailer-video');
-                video.src = videoFile;
-                video.play(); // Auto-play the video
-                
-                // Remember which info modal we left from so we can reopen it later
-                window.currentActiveModal = infoModalId;
-            }
-        
-            function closeTrailer() {
-                // Stop the video and clear the source so it doesn't run in the background
-                const video = document.getElementById('trailer-video');
-                video.pause();
-                video.src = ""; 
-                
-                // Hide the video modal
-                document.getElementById('trailer-modal').classList.add('hidden');
-                
-                // Reopen the game info modal
-                if (window.currentActiveModal) {
-                    document.getElementById(window.currentActiveModal).classList.remove('hidden');
-                }
-            }
-            
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-            }
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-            }
-        </script>
 
-        <style>
-            .scrollbar-hide::-webkit-scrollbar {
-                display: none;
+        <div id="modal-halo" class="fixed inset-0 bg-black/80 z-40 flex justify-center items-center hidden">
+            
+            <div class="bg-[#333333] w-[95%] max-w-6xl rounded-[40px] flex flex-col md:flex-row p-12 gap-12 relative shadow-2xl max-h-[95vh] overflow-y-auto overflow-x-hidden scrollbar-hide">
+
+                <button onclick="closeModal('modal-halo')" class="absolute top-8 right-10 text-white/50 hover:text-white text-5xl font-bold transition-colors duration-200 hover:scale-110 z-10">&times;</button>
+
+                <div class="w-full md:w-1/4 flex flex-col items-center gap-6 border-r border-white/10 pr-6">
+                    
+                    <img src="images/halo_the%20masterchief.png" alt="HALO: The Master Chief Collection" onclick="openTrailer('modal-halo', 'Halo_Trailer')" class="w-full max-w-[200px] aspect-[2/3] object-cover rounded-2xl shadow-lg border-2 border-white/10 hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    
+                    <div class="w-full max-w-[200px]">
+                        <span class="text-gray-400 block mb-3 text-xs uppercase tracking-wider text-center">Similar Games</span>
+                        <div class="grid grid-cols-2 gap-3">
+                            <a href="" class="flex flex-col items-center group relative cursor-pointer">
+                                <img src="images/gow-rag.png" class="w-full aspect-[2/3] object-cover rounded-lg group-hover:scale-105 transition-transform duration-300 border border-white/10 group-hover:border-white/40 shadow-md">
+                                <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-3 py-1.5 bg-gray-900 text-[11px] font-bold text-gray-100 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center whitespace-nowrap">
+                                    God of war: Ragnarok
+                                    <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                                </div>
+                            </a>
+                            <a href="pc.html?game=modal-zomboid" class="flex flex-col items-center group relative cursor-pointer">
+                                <img src="images/zomboid.png" class="w-full aspect-[2/3] object-cover rounded-lg group-hover:scale-105 transition-transform duration-300 border border-white/10 group-hover:border-white/40 shadow-md">
+                                <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-3 py-1.5 bg-gray-900 text-[11px] font-bold text-gray-100 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center whitespace-nowrap">
+                                    Project Zomboid
+                                    <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                                </div>
+                            </a>
+                            <a href="xbox.html?game=modal-ark" class="flex flex-col items-center group relative cursor-pointer">
+                                <img src="images/ark.png" class="w-full aspect-[2/3] object-cover rounded-lg group-hover:scale-105 transition-transform duration-300 border border-white/10 group-hover:border-white/40 shadow-md">
+                                <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-3 py-1.5 bg-gray-900 text-[11px] font-bold text-gray-100 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center whitespace-nowrap">
+                                    ARK: Survival Evolved
+                                    <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                                </div>
+                            </a>
+                            <a href="xbox.html?game=modal-rdr2" class="flex flex-col items-center group relative cursor-pointer">
+                                <img src="images/rdr2.jpg" class="w-full aspect-[2/3] object-cover rounded-lg group-hover:scale-105 transition-transform duration-300 border border-white/10 group-hover:border-white/40 shadow-md">
+                                <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-3 py-1.5 bg-gray-900 text-[11px] font-bold text-gray-100 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center whitespace-nowrap">
+                                    Red Dead Redemption II
+                                    <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-3/4 flex flex-col justify-between text-white py-2 pl-4">
+                    
+                    <h2 class="text-5xl md:text-6xl font-bold mb-12 font-['cubic'] text-white drop-shadow-md pr-16 leading-tight">HALO: THE MASTER CHIEF COLLECTION</h2>
+
+                    <div class="flex flex-wrap items-center gap-16 mb-16">
+                        <div class="flex items-center gap-4 relative group cursor-help">
+                            <span class="text-2xl font-semibold">Recommendation:</span>
+                            <div class="flex text-yellow-400 text-4xl drop-shadow-md hover:scale-110 transition-transform duration-300">★★★★⯨</div>
+                            <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-80 p-5 bg-gray-900 text-base text-gray-200 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl border border-gray-700 z-10 text-center leading-relaxed">
+                                <p> Halo: The Master Chief Collection is an outstanding collection that brings together some of the most iconic FPS campaigns ever made into one polished package. The storytelling—especially in Halo 2 and Halo 3—still feels powerful and cinematic, and the remastered visuals add a fresh layer to the classic experience. Multiplayer delivers a massive variety of beloved maps and modes, offering endless replay value for both longtime fans and newcomers. Although it had a rough launch years ago and the interface can feel a bit cluttered at times, the collection has improved tremendously. Overall, it’s an essential experience for anyone who appreciates classic, genre-defining shooters. </p>                          
+                            <div class="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-gray-900"></div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-20">
+                            <span class="text-2xl font-semibold">Classification:</span>
+                            
+                            <div class="group bg-white flex items-center rounded-lg border-[3px] border-black shadow-lg transition-all duration-500 ease-in-out w-14 hover:w-[155px] h-20 overflow-hidden cursor-help pl-3">
+                                <p class="font-extrabold text-black text-4xl w-8 flex-shrink-0 text-center">M</p>
+                                <div class="flex flex-col justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 ml-2 whitespace-nowrap">
+                                    <span class="font-sans text-[16px] font-black text-black tracking-wider leading-tight">MATURE</span>
+                                    <span class="font-sans text-[16px] font-black text-black tracking-wider leading-tight">17+</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-5 gap-10 mt-auto w-full">
+                        
+                        <div class="flex flex-col items-center md:col-span-2">
+                            <span class="text-gray-400 block mb-6 text-lg uppercase tracking-wider text-center w-full">Available on</span>
+                            <div class="grid grid-cols-2 gap-x-10 gap-y-6 w-fit">
+                                <a href="xbox.html" class="col-span-2 flex justify-center hover:scale-125 hover:-translate-y-2 transition-all duration-300 drop-shadow-lg">
+                                    <img src="images/xbox_one_logo_logo.png" alt="Xbox" class="w-20 h-20 object-contain">
+                                </a>
+                                <a href="pc.html" class="col-span-2 flex justify-center hover:scale-125 hover:-translate-y-2 transition-all duration-300 drop-shadow-lg">
+                                    <img src="images/pc_logo.png" alt="PC" class="w-20 h-20 object-contain">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center md:col-span-3">
+                            <div class="grid grid-cols-2 gap-5 w-full max-w-sm">
+                                <span onclick="searchByTag('FPS')" class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">FPS</span>
+                                <span onclick="searchByTag('Multiplayer')" class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">Multiplayer</span>
+                                <span onclick="searchByTag('Sci-fi')" class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">Sci-fi</span>
+                                <span onclick="searchByTag('Action')" class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">Action</span>
+                                <span onclick="searchByTag('Classic')" class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">Classic</span>
+                                <span onclick="searchByTag('Co-op')" class="bg-gray-700 px-4 py-3 rounded-xl text-center text-[15px] font-semibold shadow-inner border border-white/5 hover:scale-105 hover:bg-gray-600 transition-all duration-300 cursor-pointer whitespace-nowrap overflow-hidden">Co-op</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script>
+        function openModal(id) {
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.add('hidden');
+        }
+
+        function openTrailer(infoModalId, videoFile) {
+            // Hide the info modal instantly
+            document.getElementById(infoModalId).classList.add('hidden');
+
+            // Show the trailer modal instantly
+            document.getElementById('trailer-modal').classList.remove('hidden');
+
+            // Target the video tag and set the source
+            const video = document.getElementById('trailer-video');
+            video.src = videoFile;
+            video.play(); // Auto-play the video
+
+            // Remember which info modal we left from so we can reopen it later
+            window.currentActiveModal = infoModalId;
+        }
+
+        function closeTrailer() {
+            // Stop the video and clear the source so it doesn't run in the background
+            const video = document.getElementById('trailer-video');
+            video.pause();
+            video.src = "";
+
+            // Hide the video modal
+            document.getElementById('trailer-modal').classList.add('hidden');
+
+            // Reopen the game info modal
+            if (window.currentActiveModal) {
+                document.getElementById(window.currentActiveModal).classList.remove('hidden');
             }
-            .scrollbar-hide {
-                -ms-overflow-style: none;
-                scrollbar-width: none;
-            }
-        </style>
-    </body>
+        }
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <style>
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</body>
+
 </html>
