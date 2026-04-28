@@ -2,14 +2,18 @@
 // 1. GAME DATABASE (For Tags and Linking)
 // ==========================================
 const gamesDB = [
-    { id: "modal-ark", page: "xbox.html", title: "ARK: Survival Evolved", tags: ["Survival", "Open World", "Sandbox", "Multiplayer", "RPG", "Fantasy"] },
-    { id: "modal-rdr2", page: "xbox.html", title: "Red Dead Redemption II", tags: ["Open World", "Story Rich", "Action", "Adventure", "Western", "Multiplayer"] },
-    { id: "modal-halo", page: "xbox.html", title: "HALO: The Masterchief Collection", tags: ["FPS", "Multiplayer", "Sci-fi", "Action", "Classic", "Co-op"] },
-    { id: "modal-minecraft", page: "pc.html", title: "Minecraft", tags: ["Sandbox", "Survival", "Open World", "Multiplayer", "Crafting", "Building"] },
-    { id: "modal-zomboid", page: "pc.html", title: "Project Zomboid", tags: ["Survival", "Zombies", "Sandbox", "RPG", "Multiplayer", "Simulation"] },
-    { id: "modal-dr", page: "nintendo.html", title: "Deltarune", tags: ["RPG", "Story Rich", "Indie", "Fantasy", "Comedy", "Singleplayer"] },
-    { id: "modal-jwe2", page: "xbox.html", title: "Jurassic World Evolution 2", tags: ["Simulation", "Strategy", "Management", "Dinosaurs", "Building", "Singleplayer"] },
-    { id: "modal-stew", page: "xbox.html", title: "Stardew Valley", tags: ["Farming Sim", "RPG", "Simulation", "Multiplayer", "Relaxing", "Pixel Art"] },
+    { id: "modal-ark", page: "xbox.html", title: "ARK: Survival Evolved"},
+    { id: "modal-rdr2", page: "xbox.html", title: "Red Dead Redemption II"},
+    { id: "modal-halo", page: "xbox.html", title: "HALO: The Masterchief Collection"},
+    { id: "modal-jwe2", page: "playstation.html", title: "Jurassic World Evolution 2"},
+    { id: "modal-untl", page: "playstation.html", title: "Undetale"},
+    { id: "modal-gowr", page: "playstation.html", title: "God of War: Ragnarok"},
+    { id: "modal-ugg", page: "pc.html", title: "Untitled Goose Game",},   
+    { id: "modal-minecraft", page: "pc.html", title: "Minecraft",},
+    { id: "modal-zomboid", page: "pc.html", title: "Project Zomboid"},
+    { id: "modal-pksc", page: "nintendo.html", title: "Pokemon Scarlet"},
+    { id: "modal-dr", page: "nintendo.html", title: "Deltarune"},
+    { id: "modal-stew", page: "nintendo.html", title: "Stardew Valley"},
     // ADD NEW GAMES HERE AS YOU BUILD THEM!
 ];
 
